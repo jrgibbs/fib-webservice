@@ -2,6 +2,10 @@ __author__ = 'jgibbs'
 
 
 def fib(n):
+    """
+    :param n: This function generates the fibonacci sequence
+    :return: A list containing all of the number in the fibonacci sequence through n positions
+    """
     if not isinstance(n, (int, long)):
         raise Exception("Invalid input: n must be an integer")
     if n < 1:
