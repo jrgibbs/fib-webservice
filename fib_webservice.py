@@ -10,5 +10,9 @@ app = Flask(__name__)
 def fib_webservice(n):
     return jsonify(sequence=fib(n))
 
+@app.errorhandler(404)
+def page_not_found(error):
+    return jsonify(error=error.description, code=error.code, name=error.name)
+
 if __name__ == '__main__':
     app.run(debug=True)
