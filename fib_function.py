@@ -2,6 +2,8 @@ __author__ = 'jgibbs'
 
 
 def fib(n):
+    if not isinstance(n, (int, long)):
+        raise Exception("Invalid input: n must be an integer")
     if n < 1:
         raise Exception("Invalid input: n must be >=1")
     if n == 1:
