@@ -10,7 +10,7 @@ app = Flask(__name__)
 def fib_webservice(n):
     """ This function provides output from the fib_function
 
-    :param n: A positive integer
+    :param n: A integer greater than or equal to 0
     :return: A dictionary with a list containing all of the numbers that
     make the fibonacci sequence through n positions back to the web browser.
     """
