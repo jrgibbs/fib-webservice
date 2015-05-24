@@ -1,0 +1,12 @@
+CHANGES
+=======
+
+* changed fib_5k to be pep8 compliant needed to update test to compare string to compensate
+* added additional docstrings
+* moved tests to new directory added functional tests
+* corrected function seed value for 0 added 404 handler in webservice
+* corrected flask syntax
+* corrected test_large_result added docstring for function
+* added additional test/exception for: negative numbers floats alpha characters
+* created function to return fibonacci numbers confirmed expected results for sample data
+

@@ -1,2 +1,6 @@
 
 venv
+.eggs
+dist
+.idea
+fib_webservice.egg-info
