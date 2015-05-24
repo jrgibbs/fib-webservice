@@ -18,11 +18,12 @@ is a demonstration of python software development concepts.
   * replace n with any integer to view the fibonacci sequence through through n places. 
   * Modify the url to get other examples of output from the function
 
-* http://127.0.0.1:5000/fib/6
-* http://127.0.0.1:5000/fib/42
-* http://127.0.0.1:5000/fib/118
-* http://127.0.0.1:5000/fib/-37
-* http://127.0.0.1:5000/fib/2.2
+
+> http://127.0.0.1:5000/fib/6
+> http://127.0.0.1:5000/fib/42
+> http://127.0.0.1:5000/fib/118
+> http://127.0.0.1:5000/fib/-37
+> http://127.0.0.1:5000/fib/2.2
 
 ## Testing ##
 `$ pip -r test-requirements.txt`
