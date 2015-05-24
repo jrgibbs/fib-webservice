@@ -7,9 +7,9 @@ def fib(n):
     :return: A list containing all of the number in the fibonacci sequence through n positions
     """
     if not isinstance(n, (int, long)):
-        raise TypeError("Invalid input: n must be an integer")
+        raise ValueError("Invalid input: n must be an integer")
     if n < 0:
-        raise Exception("Invalid input: n must be >=1")
+        raise ValueError("Invalid input: n must be >=1")
     if n == 0:
         return [0]
     if n == 1:
