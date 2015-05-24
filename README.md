@@ -26,4 +26,6 @@ is a demonstration of python software development concepts.
 
 ## Testing ##
 `$ pip -r test-requirements.txt`
+
+Run the tests:
 `$ nosetests -v`
